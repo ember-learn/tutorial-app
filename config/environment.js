@@ -5,7 +5,9 @@ module.exports = function(environment) {
     modulePrefix: 'tutorial-app',
     environment,
     rootURL: '/',
-    locationType: 'auto',
+    locationType: 'trailing-history',
+    historySupportMiddleware: true,
+
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -20,7 +22,17 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
+    'ember-meta': {
+      description: 'Ember-Cli Guides'
+    },
+
+    'ember-collapsible-panel': {},
+
+    'ember-algolia': {
+      algoliaId: 'BH4D9OD16A',
+      algoliaKey: '760969ef081fcadc7e0e60faefdb0907'
+    },
   };
 
   if (environment === 'development') {
