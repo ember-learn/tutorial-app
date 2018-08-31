@@ -16,6 +16,25 @@ module.exports = function(defaults) {
       'bootstrapVersion': 4,
       'importBootstrapFont': false,
       'importBootstrapCSS': true
+    },
+
+    'ember-prism': {
+      theme: 'okaidia',
+
+      components: [
+        'apacheconf',
+        'bash',
+        'css',
+        'handlebars',
+        'http',
+        'javascript',
+        'json',
+        'markup-templating',
+        'ruby',
+        'scss'
+      ],
+
+      plugins: ['line-numbers', 'normalize-whitespace']
     }
   });
 
