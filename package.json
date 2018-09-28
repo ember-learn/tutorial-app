@@ -51,7 +51,7 @@
     "guidemaker-ember-template": "0.0.2",
     "loader.js": "^4.2.3",
     "prember": "^0.3.0",
-    "qunit-dom": "^0.6.2"
+    "qunit-dom": "^0.8.0"
   },
   "fastbootDependencies": [
     "algoliasearch"
