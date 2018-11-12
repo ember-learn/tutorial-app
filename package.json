@@ -43,7 +43,7 @@
     "ember-learn-search-components": "github:ember-learn/ember-learn-search-components#feature/styling",
     "ember-load-initializers": "^1.1.0",
     "ember-maybe-import-regenerator": "^0.1.6",
-    "ember-resolver": "^4.0.0",
+    "ember-resolver": "^5.0.1",
     "ember-source": "~3.5.1",
     "ember-welcome-page": "^3.0.0",
     "eslint-plugin-ember": "^5.3.0",
