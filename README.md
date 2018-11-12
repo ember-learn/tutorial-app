@@ -1,4 +1,8 @@
-# tutorial-app
+# DEPRECATED tutorial-app
+
+This repository has been combined with the markdown source repository, and is deprecated. Please visit [tutorial-source](https://github.com/ember-learn/tutorial-source) to contribute to the project. Thank you :)
+
+--------------
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
